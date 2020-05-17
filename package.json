@@ -1,6 +1,6 @@
 {
   "name": "fake-image-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate a fake JPG or PNG image in any size between 1 KB and 2 GB.",
   "main": "fake-image-generator.js",
   "dependencies": {
@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fake-image-generator": "./fake-image-generator.js"
   },
   "keywords": [
     "fake",
