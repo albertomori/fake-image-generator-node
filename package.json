@@ -19,5 +19,9 @@
     "2GB"
   ],
   "author": "Fagner Carvalho",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fake-image-generator/fake-image-generator-node.git"
+  }
 }
