@@ -12,7 +12,7 @@
     "fake-image-generator": "./fake-image-generator.js"
   },
   "bin": {
-    "fake-image-generator": "./fake-image-generator.js",
+    "fake-image-generator": "./fake-image-generator.js"
   },
   "keywords": [
     "fake",
