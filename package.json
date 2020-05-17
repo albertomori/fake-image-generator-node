@@ -1,6 +1,6 @@
 {
   "name": "fake-image-generator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Generate a fake JPG or PNG image in any size between 1 KB and 2 GB.",
   "main": "fake-image-generator.js",
   "dependencies": {
@@ -25,5 +25,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/fake-image-generator/fake-image-generator-node.git"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
