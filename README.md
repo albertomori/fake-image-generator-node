@@ -23,5 +23,6 @@ npm install
 ### Usage
 
 ```
-node .\fake-image-generator.js --size 15500 --extension png --output C:\
+fake-image-generator --size 15500 --extension png --output C:\
 ```
+
