@@ -35,7 +35,7 @@ var main = async () => {
 
 var readFile = async (extension) => {
     return new Promise((resolve, reject) => {
-        fs.open(`./Untitled.${extension}`, 'r', (err, fd) => {
+        fs.open(`${__dirname}/Untitled.${extension}`, 'r', (err, fd) => {
             handleError(reject, err);
 
             resolve(fd);
