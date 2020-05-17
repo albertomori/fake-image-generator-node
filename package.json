@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fake-image-generator": "./fake-image-generator.js"
   },
-  "bin": "./bin/fake-image-generator.js",
+  "bin": "./fake-image-generator.js",
   "keywords": [
     "fake",
     "image",
