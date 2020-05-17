@@ -40,6 +40,8 @@ var readFile = async (extension) => {
 
             resolve(fd);
         });
+    }).catch((error) => {
+        console.error(error);
     });
 }
 
@@ -51,6 +53,8 @@ var readIntoBuffer = async (fd) => {
 
             resolve(buffer);
         });
+    }).catch((error) => {
+        console.error(error);
     });
 }
 
@@ -70,6 +74,8 @@ var saveFile = async (arrByte, output, extension) => {
             handleError(reject, err);
             resolve();
         });
+    }).catch((error) => {
+        console.error(error);
     });
 }
 
