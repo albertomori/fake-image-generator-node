@@ -1,5 +1,7 @@
-var fs = require('fs');
-var yargs = require('yargs');
+#!/usr/bin/env node
+'use strict';
+const fs = require('fs');
+const yargs = require('yargs');
 
 var main = async () => {
     var argv = yargs
