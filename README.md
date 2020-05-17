@@ -12,7 +12,9 @@ This utility was tested in Node 12.14.1.
 
 ### Installation
 
-TODO
+```
+npm install -g fake-image-generator
+```
 
 ### Build
 
