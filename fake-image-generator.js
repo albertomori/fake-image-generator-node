@@ -11,6 +11,18 @@ var main = async () => {
             default: '1000',
             type: 'int'
         })
+        .option('number', {
+            alias: 'c',
+            description: 'Numero di file da generare',
+            default: '1',
+            type: 'int'
+        })
+        .option('name', {
+            alias: 'n',
+            description: 'Nome del file',
+            default: 'image',
+            type: 'string'
+        })
         .option('extension', {
             alias: 'e',
             description: 'Extension to generate the image. Available options are `jpg` and `png`',
